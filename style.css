@@ -1,0 +1,43 @@
+section {
+    color: rgba(241, 159, 7, 0.904)
+}
+
+nav li {
+    float:left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+section nav {
+    font-size: 20px;
+    letter-spacing: 0,5px;
+    height: 50px;
+    background-color: rgba(10, 10, 172, 0.855);
+}
+
+footer {
+    text-align: right;
+}
+
+nav li a {
+    padding: 20px;
+    text-decoration: none;
+    color: rgba(241, 159, 7, 0.904);
+    font-weight: bold;
+}
+.aula{
+    margin: 5px;
+    text-align: center;
+}
+
+.coluna {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.legenda {
+    text-align: middle;
+}
